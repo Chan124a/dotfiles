@@ -1,0 +1,167 @@
+# Read more about SSH config files: https://linux.die.net/man/5/ssh_config
+Host lx8022
+    HostName 10.116.90.205
+    Port 8022
+    User root
+Host lx
+    HostName 10.116.90.205
+    Port 22
+    User cpd
+Host 10.76.0.109-8022
+    HostName 10.76.0.109
+    Port 8022
+    User root
+Host 10.76.0.110-8022
+    HostName 10.76.0.110
+    Port 8022
+    User root
+Host 10.76.0.111-8022
+    HostName 10.76.0.111
+    Port 8022
+    User root
+Host 10.76.0.114-8022
+    HostName 10.76.0.114
+    Port 8022
+    User root
+Host 10.76.0.142-8022
+    HostName 10.76.0.142
+    Port 8022
+    User root
+Host 10.76.0.143-8022
+    HostName 10.76.0.143
+    Port 8022
+    User root
+Host 10.76.0.144-8022
+    HostName 10.76.0.144
+    Port 8022
+    User root
+Host 10.76.0.146-8022
+    HostName 10.76.0.146
+    Port 8022
+    User root
+Host 10.76.1.48-8022
+    HostName 10.76.1.48
+    Port 8022
+    User root
+Host 10.76.1.49-8022
+    HostName 10.76.1.49
+    Port 8022
+    User root
+Host 10.76.1.50-8022
+    HostName 10.76.1.50
+    Port 8022
+    User root
+Host 10.76.1.58-8022
+    HostName 10.76.1.58
+    Port 8022
+    User root
+Host 10.76.1.59-8022
+    HostName 10.76.1.59
+    Port 8022
+    User root
+Host 10.76.1.62-8022
+    HostName 10.76.1.62
+    Port 8022
+    User root
+Host 108
+    HostName 10.76.0.109
+    Port 22
+    User cpd
+    ServerAliveInterval 60
+    ServerAliveCountMax 3
+    TCPKeepAlive yes
+Host 110
+    HostName 10.76.0.110
+    Port 22
+    User cpd
+    ServerAliveInterval 60
+    ServerAliveCountMax 3
+    TCPKeepAlive yes
+Host 111
+    HostName 10.76.0.111
+    Port 22
+    User cpd
+    ServerAliveInterval 60
+    ServerAliveCountMax 3
+    TCPKeepAlive yes
+Host 114
+    HostName 10.76.0.114
+    Port 22
+    User cpd
+    ServerAliveInterval 60
+    ServerAliveCountMax 3
+    TCPKeepAlive yes
+Host 142
+    HostName 10.76.0.142
+    Port 22
+    User cpd
+    ServerAliveInterval 60
+    ServerAliveCountMax 3
+    TCPKeepAlive yes
+Host 143
+    HostName 10.76.0.143
+    Port 22
+    User cpd
+    ServerAliveInterval 60
+    ServerAliveCountMax 3
+    TCPKeepAlive yes
+Host 144
+    HostName 10.76.0.144
+    Port 22
+    User cpd
+    ServerAliveInterval 60
+    ServerAliveCountMax 3
+    TCPKeepAlive yes
+Host 146
+    HostName 10.76.0.146
+    Port 22
+    User cpd
+    ServerAliveInterval 60
+    ServerAliveCountMax 3
+    TCPKeepAlive yes
+Host 48
+    HostName 10.76.1.48
+    Port 22
+    User cpd
+    HostkeyAlgorithms +ssh-rsa 
+    PubkeyAcceptedAlgorithms +ssh-rsa
+    ServerAliveInterval 60
+    ServerAliveCountMax 3
+    TCPKeepAlive yes
+Host 49
+    HostName 10.76.1.49
+    Port 22
+    User cpd
+    ServerAliveInterval 60
+    ServerAliveCountMax 3
+    TCPKeepAlive yes
+Host 50
+    HostName 10.76.1.50
+    Port 22
+    User cpd
+    HostkeyAlgorithms +ssh-rsa 
+    PubkeyAcceptedAlgorithms +ssh-rsa
+    ServerAliveInterval 60
+    ServerAliveCountMax 3
+    TCPKeepAlive yes
+Host 58
+    HostName 10.76.1.58
+    Port 22
+    User cpd
+    ServerAliveInterval 60
+    ServerAliveCountMax 3
+    TCPKeepAlive yes
+Host 59
+    HostName 10.76.1.59
+    Port 22
+    User cpd
+    ServerAliveInterval 60
+    ServerAliveCountMax 3
+    TCPKeepAlive yes
+Host 62
+    HostName 10.76.1.62
+    Port 22
+    User cpd
+    ServerAliveInterval 60
+    ServerAliveCountMax 3
+    TCPKeepAlive yes
